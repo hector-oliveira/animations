@@ -1,15 +1,11 @@
 import React from 'react';
-
-import { 
-  Container,
-  Text
-} from './SignUp.styles'
-import { View } from 'react-native';
+import { Container } from './SignUp.styles'
+import { Eye } from '@animations/Eye';
 
 export const SignUp = () => {
   return (
     <Container>
-      <Text>hooks</Text>  
+      <Eye /> 
     </Container>
   );
 };
