@@ -1,6 +1,24 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    /* Importe module JSON */
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@animations/*":      ["./src/animations/*"],
+      "@components/*":      ["./src/components/*"],
+      "@screens-app/*":     ["./src/screens/app/*"],
+      "@screens-auth/*":    ["./src/screens/auth/*"],
+      "@hooks/*":           ["./src/hooks/*"],
+      "@routes/*":          ["./src/routes/*"],
+      "@data/*":            ["./src/global/data/*"],
+      "@interfaces/*":      ["./src/global/interfaces/*"],
+      "@themes/*":          ["./src/global/themes/*"],
+      "@assets/*":          ["./src/assets/*"],
+    }
+
   }
 }
