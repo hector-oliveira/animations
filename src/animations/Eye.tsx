@@ -6,13 +6,14 @@ import { useEye } from '@hooks/useEye';
 
 export const Eye = () => {
   const { animationRef, handleClickAnimation } = useEye();
+  
   return (
     <TouchableOpacity onPress={handleClickAnimation}>
       <LottieView
         source={eye}
         autoPlay={false}
         loop={false}
-        style={{ width: 50, height: 50 }}
+        style={ { width: 50, height: 50 } }
         resizeMode='cover'
         ref={animationRef}
       />
