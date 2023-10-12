@@ -6,4 +6,4 @@ type OptionsCheckBoxProps = {
 export type CheckBoxProps = {
   options: OptionsCheckBoxProps[];
   onChange?: (option: string) => void;
-}
+};

@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import * as S from './SignUp.styles';
 import { Input } from '@components/Input/Input';
-import { useTextInput } from '@hooks/useTextInput';
 
 export const SignUp = () => {
-  // const { textInput, handleTextInput } = useTextInput();
-
   const acceptanceOption = [{ text: 'Li e concordo com os termos', id: 1 }];
   return (
     <S.Container>
