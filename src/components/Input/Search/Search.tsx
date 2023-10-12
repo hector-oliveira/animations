@@ -2,17 +2,23 @@ import React from 'react';
 import * as S from './Search.styles';
 import { Feather } from '@expo/vector-icons';
 import { InputTextArea } from '@components/all.components';
+import { InputTypesProps } from '@interfaces/InputProps';
 
-export const Search = () => {
+export const Search = ({
+  onChangeText,
+  placeholder,
+  icon,
+  ...rest
+}:InputTypesProps) => {
   return (
     <S.Container>
-      <InputTextArea />
+      <InputTextArea 
+        onChangeText={onChangeText}
+        placeholder={placeholder}
+        {...rest}
+      />
       <S.IconContainer>
-        <Feather 
-          name='search'
-          size={20}
-          color='#3D3D3D'
-        />
+        <Feather name={icon} size={20} color="#000" />
       </S.IconContainer>
     </S.Container>
   );
