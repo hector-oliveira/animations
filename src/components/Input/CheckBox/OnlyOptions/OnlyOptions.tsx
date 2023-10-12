@@ -4,7 +4,7 @@ import * as S from './OnlyOptions.styles';
 export const OnlyOptions = () => {
   return (
     <S.Container>
-      <S.Text>OnlyOptions</S.Text>
+      <S.Text>Input Only Options</S.Text>
     </S.Container>
   );
 };
