@@ -4,11 +4,17 @@ import { Input } from '@components/Input/Input';
 import { useTextInput } from '@hooks/useTextInput';
 
 export const SignUp = () => {
-  const { textInput, handleTextInput } = useTextInput();
+  // const { textInput, handleTextInput } = useTextInput();
+
+  const acceptanceOption = [{ text: 'Li e concordo com os termos', id: 1 }];
   return (
     <S.Container>
-      <Input.CheckBox />
-      <Input.Password />
+      <Input.CheckBox.Individual 
+        options={acceptanceOption}
+      />
+      <Input.CheckBox.OnlyOptions />
+      <Input.CheckBox.MultipleOptions />
+      {/* <Input.Password />
       <Input.Radio />
       <Input.Search 
         onChangeText={handleTextInput}
@@ -16,7 +22,7 @@ export const SignUp = () => {
         placeholder='Pesquise aqui'
         icon='search'
       />
-      <Input.Text />
+      <Input.Text /> */}
     </S.Container>
   );
 };
