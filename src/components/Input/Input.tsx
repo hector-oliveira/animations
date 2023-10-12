@@ -5,9 +5,9 @@ import { Radio }    from './Radio/Radio';
 import { Search }   from './Search/Search';
 
 export const Input = {
-  Text:     Text,
-  Password: Password,
-  CheckBox: CheckBox,
-  Radio:    Radio,
-  Search:   Search
+  Text,
+  Password,
+  CheckBox,
+  Radio,
+  Search
 };
