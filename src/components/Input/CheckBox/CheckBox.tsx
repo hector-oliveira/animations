@@ -1,10 +1,9 @@
-import React from 'react';
-import * as S from './CheckBox.styles';
+import { Individual }      from './Individual/Individual';
+import { MultipleOptions } from './MultipleOptions/MultipleOptions';
+import { OnlyOptions }     from './OnlyOptions/OnlyOptions';
 
-export const CheckBox = () => {
-  return (
-    <S.Container>
-      <S.Text>CheckBox</S.Text>
-    </S.Container>
-  );
+export const CheckBox = {
+  Individual,
+  MultipleOptions,
+  OnlyOptions,
 };
