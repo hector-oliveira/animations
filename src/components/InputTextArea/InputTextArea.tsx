@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import * as S from './InputTextArea.styles';
-import { InputTextProps } from '@interfaces/InputProps';
+import { InputTextProps } from '@interfaces/Input.props';
 
 export const InputTextArea = ({ onChangeText, placeholder }: InputTextProps) => {
   

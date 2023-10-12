@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from './Search.styles';
 import { Feather } from '@expo/vector-icons';
 import { InputTextArea } from '@components/all.components';
-import { InputTypesProps } from '@interfaces/InputProps';
+import { InputTypesProps } from '@interfaces/Input.props';
 
 export const Search = ({
   onChangeText,
