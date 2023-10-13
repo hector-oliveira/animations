@@ -1,14 +1,10 @@
 import React from 'react';
-
-import {
-  Container,
-  Text,
-} from './Home.styles';
+import * as S from './Home.styles'
 
 export const Home = () => {
   return (
-    <Container>
-      <Text>Home</Text>
-    </Container>
+    <S.Container>
+      <S.Text>Home</S.Text>
+    </S.Container>
   );
 };

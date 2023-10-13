@@ -31,7 +31,9 @@ export default {
       3:   '#10B390',
       4:   '#50B6FF',
       5:   '#FFA318',
-    }
+    },
+
+    check: '#30DD64'
  },
 
   fonts: { 

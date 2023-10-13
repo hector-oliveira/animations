@@ -1,4 +1,8 @@
+import { OpaqueColorValue } from "react-native";
+import { Feather,AntDesign } from "@expo/vector-icons";
+
 export type IconProps = {
-  size?: number;
-  color?: string;
+  name: React.ComponentProps<typeof Feather>['name'];
+  size: number;
+  color?: string | OpaqueColorValue;
 };
