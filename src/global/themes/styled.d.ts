@@ -1,5 +1,5 @@
 import 'styled-components';
-import theme from './tokes.themes';
+import theme from './theme';
 
 declare module 'styled-components' {
   type ThemeType = typeof theme;
