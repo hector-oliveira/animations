@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import theme from '@themes/tokes.themes';
+import { theme } from '@themes/theme';
 
 export const Container = styled.View`
   background-color: ${ theme.colors.bgColor['1.2'] };

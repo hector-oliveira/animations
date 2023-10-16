@@ -4,6 +4,7 @@ import { CheckBoxProps } from '@interfaces/CheckBox.props';
 import { useCheckBox } from '@hooks/useCheckBoxIndividual';
 import { IconProps } from '@interfaces/Icon.props';
 import { Feather } from '@expo/vector-icons';
+
 export const Individual = ( {
   options,
   name,
