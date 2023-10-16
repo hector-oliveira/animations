@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import * as S from './SignUp.styles';
 import { Input } from '@components/Input/Input';
-import theme from '@themes/tokes.themes';
+import { theme } from '@themes/theme';
 
 export const SignUp = () => {
   const acceptanceOption = [{ text: 'Li e concordo com os termos', id: 1 }];

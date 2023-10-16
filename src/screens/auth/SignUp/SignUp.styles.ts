@@ -1,4 +1,4 @@
-import theme from '@themes/tokes.themes';
+import { theme } from '@themes/theme';
 import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
