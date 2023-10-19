@@ -33,6 +33,7 @@ export const theme = {
       5:   '#FFA318',
     },
 
+    bgContainer: '#121025',
     check: '#30DD64'
  },
 };
