@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 import { theme } from '@themes/theme';
 
-export const Container = styled.TouchableOpacity`
+export const Container = styled.SafeAreaView`
   margin-bottom: 20px;
   height: 25px;
   flex-direction: row;
