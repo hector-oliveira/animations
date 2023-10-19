@@ -1,3 +1,5 @@
+import { TextInputProps } from "react-native";
+
 type OptionsCheckBoxProps = {
   text: string;
   id: number;
@@ -5,5 +7,6 @@ type OptionsCheckBoxProps = {
 
 export type CheckBoxProps = {
   options: OptionsCheckBoxProps[];
+  icon?: () => void;
   onChange?: (option: string) => void;
-};
+}& TextInputProps;
