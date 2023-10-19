@@ -9,8 +9,8 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <SafeAreaView style={ { flex: 1 } }>
         <StatusBar 
-          style="dark" 
-          backgroundColor="transparent" 
+          style="light"
+          backgroundColor={ theme.colors.bgContainer} 
         />
         <AuthRoutes />
       </SafeAreaView>
