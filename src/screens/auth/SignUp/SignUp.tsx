@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import * as S from './SignUp.styles';
 import { Input } from '@components/Input/Input';
 import { useCheckBox } from '@hooks/useCheckBoxIndividual';
-import { useSignUp } from './useSignUp';
+import { useSignUp } from '@hooks/_useSignUp';
 
 
 export const SignUp = () => {
