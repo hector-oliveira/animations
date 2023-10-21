@@ -4,7 +4,7 @@ module.exports = function(api) {
     presets: ['babel-preset-expo'],
     plugins: [
       ['module-resolver', {
-        root: ['./src'],
+        root: ['./'],
         alias: {
           '@animations':      './src/animations',
           '@components':      './src/components',
@@ -14,7 +14,7 @@ module.exports = function(api) {
           '@routes':          './src/routes',
           '@data':            './src/global/data',
           '@interfaces':      './src/global/interfaces',
-          '@themes':          './src/global/themes',
+          '@themes':          './src/themes',
           '@assets':          './src/assets',
         }
       }]

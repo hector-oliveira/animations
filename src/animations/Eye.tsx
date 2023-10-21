@@ -2,7 +2,7 @@ import React from 'react';
 import { TouchableOpacity } from 'react-native';
 import LottieView from 'lottie-react-native';
 import eye from '@assets/eye.json';
-import { useEye } from '@hooks/useEye';
+import { useEye } from '@animations/useEye';
 
 export const Eye = () => {
   const { animationRef, handleClickAnimation } = useEye();

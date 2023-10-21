@@ -1,17 +1,14 @@
 import styled from 'styled-components/native';
 import { theme } from '@themes/theme';
 
-export const Container = styled.View`
+export const Container = styled.SafeAreaView`
   height: 40px;
-  width: 100%;
-  background-color: ${ theme.colors.bgColor[5] };
-  border-radius: 5px;
-  margin-bottom: 10px;
-  justify-content: center;
+  width: 90%;
+  flex-direction: row;
   align-items: center;
-`;
-
-export const Text = styled.Text`
-  font-size: 24px;
-  color: ${ theme.colors.lightColor[900] };
+  justify-content: center;
+  gap: 10px;
+  padding-left: 10px;
+  border: 1px solid ${ theme.color.contour };
+  border-radius: 8px;
 `;

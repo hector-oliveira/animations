@@ -10,7 +10,7 @@ export default function App() {
       <SafeAreaView style={ { flex: 1 } }>
         <StatusBar 
           style="light"
-          backgroundColor={ theme.colors.bgContainer} 
+          backgroundColor={ theme.color.bgContainer} 
         />
         <AuthRoutes />
       </SafeAreaView>

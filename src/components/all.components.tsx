@@ -1,2 +1,2 @@
 export { Header } from './Header/Header';
-export { InputTextArea } from './InputTextArea/InputTextArea';
+export { TextInputArea } from './TextInputArea/TextInputArea';

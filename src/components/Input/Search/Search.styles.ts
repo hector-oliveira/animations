@@ -4,7 +4,7 @@ import { theme } from '@themes/theme';
 export const Container = styled.View`
   height: 40px;
   width: 100%;
-  background-color: ${ theme.colors.bgColor[4] };
+  background-color: ${ theme.color.bgContainer };
   border-radius: 20px;
   margin-bottom: 10px;
   flex-direction: row;
@@ -17,6 +17,6 @@ export const IconContainer = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background: ${ theme.colors.lightColor[600] };
+  background: ${ theme.color.light_800 };
 `;
 

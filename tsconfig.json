@@ -16,7 +16,7 @@
       "@routes/*":          ["./src/routes/*"],
       "@data/*":            ["./src/global/data/*"],
       "@interfaces/*":      ["./src/global/interfaces/*"],
-      "@themes/*":          ["./src/global/themes/*"],
+      "@themes/*":          ["./src/themes/*"],
       "@assets/*":          ["./src/assets/*"],
     }
 

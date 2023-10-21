@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 import { theme } from '@themes/theme';
 
-export const Container = styled.SafeAreaView`
+export const Container = styled.TouchableOpacity`
   margin-bottom: 20px;
   height: 25px;
   flex-direction: row;
@@ -11,5 +11,5 @@ export const Container = styled.SafeAreaView`
 
 export const Text = styled.Text`
   font-size: 14px;
-  color: ${ theme.colors.darkColor[900] };
+  color: ${ theme.color.dark_900 };
 `;
