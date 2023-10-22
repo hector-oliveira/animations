@@ -5,7 +5,7 @@ type OptionsCheckBoxProps = {
   id: number;
 };
 
-export type CheckBoxProps = {
+export type CheckBoxProps = TextInputProps & {
   options: OptionsCheckBoxProps[];
   onChange?: (option: string) => void;
-}& TextInputProps;
+};

@@ -1,8 +1,8 @@
 import React from 'react';
 import * as S from './Search.styles';
 import { Feather } from '@expo/vector-icons';
-import { InputTextArea } from '@components/all.components';
-import { InputTypesProps } from '@interfaces/Input.props';
+import { TextInputArea } from '@components/export-components';
+import { InputTypesProps } from '@interfaces/InputProps';
 
 export const Search = ({
   onChangeText,
@@ -12,7 +12,7 @@ export const Search = ({
 }:InputTypesProps) => {
   return (
     <S.Container>
-      <InputTextArea 
+      <TextInputArea 
         onChangeText={onChangeText}
         placeholder={placeholder}
         {...rest}

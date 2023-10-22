@@ -4,7 +4,7 @@ import { TextInputArea } from '@components/all.components';
 import { FontAwesome } from '@expo/vector-icons';
 import { theme } from '@themes/theme';
 import { useToggleStatus } from '@hooks/index';
-import { useIconRendering } from '../../../hooks/IconRender/useIconRendering';
+import { useIconRendering } from '../../../hooks/ConditionalIconRender/useConditionalIconRender';
 
 export const Password = () => {
   const { status, handleToggleStatus } = useToggleStatus(true);
