@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './Search.styles';
 import { Feather } from '@expo/vector-icons';
-import { TextInputArea } from '@components/export-components';
+import { TextInputArea } from '@components/all-components';
 import { InputTypesProps } from '@interfaces/InputProps';
 
 export const Search = ({

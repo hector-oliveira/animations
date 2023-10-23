@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from './Text.styles';
 import { FontAwesome } from '@expo/vector-icons';
 import { theme } from '@themes/theme';
-import { TextInputArea } from '@components/all.components';
+import { TextInputArea } from '@components/all-components';
 
 export const Text = () => {
   return (
