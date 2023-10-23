@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from './Individual.styles';
-import { useIconRendering, useToggleStatus } from '@hooks/index';
+import { useConditionalIconRender, useToggleStatus } from '@hooks/index';
 import { theme } from '@themes/theme';
 import { CheckBoxProps } from '@interfaces/CheckBoxProps';
 
@@ -12,7 +12,7 @@ export const Individual = ( {
 }: CheckBoxProps) => {
 
   const { status, handleToggleStatus } = useToggleStatus(false);
-  const { handleIconRendering } = useIconRendering({ 
+  const { handleIconRendering } = useConditionalIconRender({ 
     initialStatus: status,
     trueIconName: 'check',
     falseIconName: 'square-o',
