@@ -7,10 +7,10 @@ import { TextInputArea } from '@components/all-components';
 export const Text = () => {
   return (
     <S.Container>
-      <FontAwesome  name="user" size={22} color={ theme.color.light_900 } />
+      <FontAwesome  name="user" size={22} color={ theme.color.light[900] } />
       <TextInputArea 
         placeholder="Nome"
-        placeholderTextColor={ theme.color.light_800 }
+        placeholderTextColor={ theme.color.light[800] }
       />
     </S.Container>
   );

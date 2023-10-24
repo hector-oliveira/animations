@@ -13,5 +13,5 @@ export const Container = styled.View`
 
 export const Text = styled.Text`
   font-size: 24px;
-  color: ${ theme.color.dark_900 };
+  color: ${ theme.color.dark[900] };
 `;

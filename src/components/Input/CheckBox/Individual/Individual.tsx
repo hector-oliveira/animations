@@ -18,7 +18,7 @@ export const Individual = ( {
     falseIconName: 'square-o',
     trueIconSize: 18,
     falseIconSize: 23,
-    trueIconColor: theme.color.light_900,
+    trueIconColor: theme.color.light[900],
     falseIconColor: theme.color.bgContainer,
     trueIconBackgroundColor: theme.color.check
   });

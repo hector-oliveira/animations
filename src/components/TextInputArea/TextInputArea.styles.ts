@@ -5,8 +5,8 @@ export const Container = styled.TextInput`
   font-size: 16px;
   flex: 1;
   height: 100%;
-  border: 1px solid ${ theme.color.light_800 };
+  border: 1px solid ${ theme.color.light[800] };
   border-radius: 8px;
   padding: 10px;
-  color: ${ theme.color.dark_900 };
+  color: ${ theme.color.dark[900] };
 `;

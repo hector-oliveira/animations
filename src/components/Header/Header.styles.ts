@@ -1,3 +1,4 @@
+import { theme } from '@themes/theme';
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
@@ -9,5 +10,5 @@ export const Container = styled.View`
 
 export const Text = styled.Text`
   font-size: 24px;
-  color: #000;
+  color: ${ theme.color.dark[900] };
 `;

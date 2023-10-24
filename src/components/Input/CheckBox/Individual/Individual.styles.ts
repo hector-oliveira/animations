@@ -11,5 +11,5 @@ export const Container = styled.TouchableOpacity`
 
 export const Text = styled.Text`
   font-size: 14px;
-  color: ${ theme.color.dark_900 };
+  color: ${ theme.color.dark[900] };
 `;

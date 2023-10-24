@@ -15,12 +15,12 @@ export const Password = () => {
   });
   return (
     <S.Container>
-      <FontAwesome  name="lock" size={22} color={ theme.color.dark_900 } />
+      <FontAwesome  name="lock" size={22} color={ theme.color.dark[900] } />
       <TextInputArea 
         secureTextEntry={status}
         autoCapitalize="none"
         placeholder="Senha"
-        placeholderTextColor={ theme.color.dark_900 }
+        placeholderTextColor={ theme.color.dark[900] }
       />
       <S.ButtonContainer onPress={handleToggleStatus}>
         { handleIconRendering() }

@@ -17,6 +17,6 @@ export const IconContainer = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background: ${ theme.color.light_800 };
+  background: ${ theme.color.light[800] };
 `;
 
