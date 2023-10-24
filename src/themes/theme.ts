@@ -8,11 +8,15 @@ export const theme = {
     bgContainer: '#121025',
     check: '#30DD64',
 
-    light_900: '#FFFFFF',
-    light_800: '#F5F5F5',
+    light: {
+      900: '#FFFFFF',
+      800: '#F5F5F5',
+    },
 
-    dark_900: '#000000',
-    dark_800: '#161616',
+    dark: {
+      900: '#000000',
+      800: '#161616',
+    } 
 
   },
 
