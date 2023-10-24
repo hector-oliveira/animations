@@ -1,5 +1,7 @@
 import styled from 'styled-components/native';
 import { theme } from '@themes/theme';
+import { ImagePropsBase } from 'react-native';
+import { ImageBackground } from 'react-native';
 
 export const Container = styled.View`
   flex: 1;
@@ -18,10 +20,15 @@ export const ImageContainer = styled.SafeAreaView`
   height: 100px;
   border: 1px solid ${ theme.color.light[800] };
   border-radius: 8px;
+  padding: 8px 16px;
+
+  border: 1px solid ${ theme.color.bgContainer };
 `;
 
 export const Image = styled.Text`
   height: 100%;
   width: 100%;
   border-radius: 8px;
+  /* text-align: center; */
+  border: 1px solid ${ theme.color.contour };
 `;
