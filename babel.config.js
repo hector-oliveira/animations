@@ -8,8 +8,8 @@ module.exports = function(api) {
         alias: {
           '@animations':      './src/animations',
           '@components':      './src/components',
-          '@screens-app':     './src/screens/app',
-          '@screens-auth':    './src/screens/auth',
+          '@app-screens':     './src/screens/app',
+          '@auth-screens':    './src/screens/auth',
           '@hooks':           './src/hooks',
           '@routes':          './src/routes',
           '@data':            './src/global/data',
