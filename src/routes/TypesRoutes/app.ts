@@ -1,9 +1,0 @@
-import { ImagePropsBase } from "react-native";
-
-export type AppParamList = {
-  home: undefined;
-  details: {
-    id: string;
-    image: string;
-  }
-};
