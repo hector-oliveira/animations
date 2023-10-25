@@ -6,7 +6,7 @@ import { TouchableOpacity } from 'react-native';
 
 export const Login = () => {
 
-  const navigation = useNavigation<AuthRoutesNames['navigation']>();
+  const navigation = useNavigation<AuthRoutesNames>();
   const handleNavigation = () => navigation.navigate('recoverPassword');
 
   return (
