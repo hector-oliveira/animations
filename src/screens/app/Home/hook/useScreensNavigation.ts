@@ -1,13 +1,12 @@
-import { useNavigation } from '@react-navigation/native';
-import { AppNavigationContextProperty } from '@routes/TypesRoutes/NavigationProps';
+import { useNavigation } from "@react-navigation/native";
+import { AppRoutesNames } from "@routes/TypeParamList/TypingForNavigation";
 
 export const useScreensNavigation = () => {
-  const navigation = useNavigation<AppNavigationContextProperty>();
+  const navigation = useNavigation<AppRoutesNames['navigation']>();
+
   const handleNavigation = (id: string, image: string) => {
-    navigation.navigate('details', { id, image });
+    navigation.navigate('details', { id, image })
   }
-  return {
-    navigation,
-    handleNavigation
-  }
+  
+  return { handleNavigation }
 }

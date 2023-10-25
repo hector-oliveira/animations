@@ -6,6 +6,7 @@ import { useDataImage, useScreensNavigation } from './hook/index';
 export const Home = () => {
   const { images } = useDataImage();
   const { handleNavigation } = useScreensNavigation();
+
   return (
     <S.Container>
       <ButtonProducts 
