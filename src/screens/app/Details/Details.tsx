@@ -1,9 +1,9 @@
 import React from 'react';
 import * as S from './Details.styles';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { AppParamList } from '@routes/TypesRoutes/app';
+import { AppScreensParamList } from '@routes/TypeParamList';
 
-type Props = NativeStackScreenProps<AppParamList, 'details'>;
+type Props = NativeStackScreenProps<AppScreensParamList, 'details'>
 
 export const Details = ( { route }: Props ) => {
   const { id, image } = route.params;
