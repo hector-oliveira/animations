@@ -2,9 +2,9 @@ import * as React from 'react';
 import * as screens from '@app/app-screens';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { AppParamList } from './TypesRoutes/app';
+import { AppScreensParamList } from './TypeParamList';
 
-const { Navigator, Screen } = createNativeStackNavigator<AppParamList>();
+const { Navigator, Screen } = createNativeStackNavigator<AppScreensParamList>();
 
 export function AppRoutes() {
   return (
