@@ -10,7 +10,7 @@ const { Navigator, Screen } = createNativeStackNavigator<AuthScreensParamList>()
 export const AuthRoutes = () => {
   return(
     <NavigationContainer>
-      <Navigator initialRouteName='login'  screenOptions={ { headerShown: false } } >
+      <Navigator initialRouteName='signUp'  screenOptions={ { headerShown: false } } >
         <Screen name='signUp' component={screen.SignUp} />
         <Screen name='login' component={screen.Login} />
         <Screen name='recoverPassword' component={screen.RecoverPassword} />
