@@ -13,8 +13,8 @@ export default function App() {
           style="dark"
           backgroundColor={ theme.color.light[800]} 
         />
-        <AppRoutes />
-        {/* <AuthRoutes /> */}
+        {/* <AppRoutes /> */}
+        <AuthRoutes />
       </SafeAreaView>
     </ThemeProvider>
   );
