@@ -15,16 +15,18 @@ export const Password = () => {
   });
   return (
     <S.Container>
-      <FontAwesome  name="lock" size={22} color={ theme.color.dark[900] } />
+      <S.IconContainer>
+        <FontAwesome  name="lock" size={22} color={ theme.color.dark[900] } />
+      </S.IconContainer>
       <TextInputArea 
         secureTextEntry={isToggle}
         autoCapitalize="none"
         placeholder="Senha"
         placeholderTextColor={ theme.color.dark[900] }
       />
-      <S.ButtonContainer onPress={handleToggleState}>
+      <S.ButtonIconContainer onPress={handleToggleState}>
         { handleIconRendering() }
-      </S.ButtonContainer>
+      </S.ButtonIconContainer>
     </S.Container>
   );
 };

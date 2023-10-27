@@ -6,16 +6,23 @@ export const Container = styled.SafeAreaView`
   width: 90%;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding-left: 10px;
   border: 1px solid ${ theme.color.contour };
   border-radius: 8px;
+  margin-bottom: 10px;
 `;
 
-export const ButtonContainer = styled.TouchableOpacity`
-  padding: 0 8px;
+export const IconContainer = styled.SafeAreaView`
+  height: 100%;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const ButtonIconContainer = styled.TouchableOpacity`
+  padding-right: 5px;
   height: 100%;
   justify-content: center;
   align-items: center;
 `;
+
+
