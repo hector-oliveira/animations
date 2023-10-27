@@ -7,6 +7,6 @@ export const Container = styled.TextInput`
   height: 100%;
   border: 1px solid ${ theme.color.light[800] };
   border-radius: 8px;
-  padding: 10px;
+  padding: 6px;
   color: ${ theme.color.dark[900] };
 `;
