@@ -9,4 +9,16 @@ export const Container = styled.SafeAreaView`
   background-color: ${ theme.color.light[800] };
 `;
 
+export const Title = styled.Text`
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+`;
+
+export const Text = styled.Text`
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: bold;
+`;
+
 export const Button = styled.TouchableOpacity``;
