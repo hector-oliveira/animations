@@ -14,19 +14,20 @@ export const Text = styled.Text`
 `;
 
 export const ImageContainer = styled.SafeAreaView`
-  width: 100%;
-  height: 100px;
+  width: 95%;
+  height: 300px;
   border: 1px solid ${ theme.color.light[800] };
   border-radius: 8px;
-  padding: 8px 16px;
+  padding: 8px 0px;
 
   border: 1px solid ${ theme.color.bgContainer };
 `;
 
-export const Image = styled.Text`
+export const Image = styled.ImageBackground.attrs({
+  reiszeMode: 'cover',
+})`
   height: 100%;
   width: 100%;
   border-radius: 8px;
   text-align: center;
-  border: 1px solid ${ theme.color.contour };
 `;
