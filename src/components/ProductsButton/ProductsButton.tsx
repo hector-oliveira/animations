@@ -7,9 +7,7 @@ type ProductsButton = TouchableOpacityProps & ImageProps;
 
 export const ProductsButton = ({ ...rest }: ProductsButton) => {
   return (
-    <S.Container
-      {...rest}
-    >
+    <S.Container {...rest}>
       <S.ImageContainer>
         <S.Image {...rest} />
       </S.ImageContainer>
