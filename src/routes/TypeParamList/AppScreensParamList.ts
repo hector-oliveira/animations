@@ -1,4 +1,6 @@
+import { DetailsParams } from "./ScreenParameters.interface";
+
 export type AppScreensParamList = {
   home: undefined;
-  details: { id: string, image: string }
+  details: DetailsParams;
 };
