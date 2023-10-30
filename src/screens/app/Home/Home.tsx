@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from './Home.styles';
-import { ButtonProducts } from '@components/all-components';
+import { ProductsButton } from '@components/all-components';
 import { useDataImage, useScreensNavigation } from './hook/index';
 
 export const Home = () => {
@@ -9,47 +9,13 @@ export const Home = () => {
 
   return (
     <S.Container>
-      <ButtonProducts 
-        source={images[0].source}
-        onPress={() => handleNavigation('Detalhes do produto: 1', images[0].source)}
-      />
-      
-      <ButtonProducts 
-        source={images[1].source}
-        onPress={() => handleNavigation('Detalhes do produto: 2', images[1].source)}
-      />
-
-      <ButtonProducts 
-        source={images[2].source}
-        onPress={() => handleNavigation('Detalhes do produto: 3', images[2].source)}
-      />
-
-      <ButtonProducts 
-        source={images[3].source}
-        onPress={() => handleNavigation('Detalhes do produto: 4', images[3].source)}
-      />
-
-      <ButtonProducts 
-        source={images[4].source}
-        onPress={() => handleNavigation('Detalhes do produto: 5', images[4].source)}
-      />
-
-      <ButtonProducts 
-        source={images[5].source}
-        onPress={() => handleNavigation('Detalhes do produto: 6', images[5].source)}
-      />
-
-      <ButtonProducts 
-        source={images[6].source}
-        onPress={() => handleNavigation('Detalhes do produto: 7', images[6].source)}
-      />
-
-      <ButtonProducts 
-        source={images[7].source}
-        onPress={() => handleNavigation('Detalhes do produto: 8', images[7].source)}
-      />
-
-
+      {images.map((image, index) => (
+        <ProductsButton 
+          key={index}
+          source={image.source}
+          onPress={() => handleNavigation(`Detalhes do produto: ${index + 1}`, image.source)}
+        />
+      ))}
     </S.Container>
   );
 };
