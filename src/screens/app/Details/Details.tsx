@@ -11,11 +11,8 @@ export const Details = ({ route }: Props) => {
   return (
     <S.Container>
       <S.Text>{id}</S.Text>
-      <S.ImageContainer>
-        
-        <S.Image 
-          source={image}
-        />
+      <S.ImageContainer>  
+        <S.Image source={image} />
       </S.ImageContainer>
     </S.Container>
   );
