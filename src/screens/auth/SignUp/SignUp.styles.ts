@@ -6,19 +6,12 @@ export const Container = styled.SafeAreaView`
   align-items: center;
   justify-content: center;
   padding: 0 30px;
-  background-color: ${ theme.color.light[800] };
+  background-color: ${ theme.colors.main };
 `;
-
-export const Title = styled.Text`
-  text-decoration: underline;
-  font-size: 18px;
-  font-weight: bold;
-`;
-
 export const Text = styled.Text`
-  text-decoration: underline;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
+  color: ${ theme.color.light[900] };
 `;
 
 export const Button = styled.TouchableOpacity``;
