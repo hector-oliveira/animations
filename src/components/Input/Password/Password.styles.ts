@@ -19,8 +19,8 @@ export const IconContainer = styled.SafeAreaView`
 `;
 
 export const ButtonIconContainer = styled.TouchableOpacity`
-  padding-right: 5px;
   height: 100%;
+  width: 40px;
   justify-content: center;
   align-items: center;
 `;
