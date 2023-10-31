@@ -1,15 +1,15 @@
 import React from 'react';
 import * as S from './Search.styles';
+import { InputTextProps } from '@interfaces/InputProps';
 import { Feather } from '@expo/vector-icons';
 import { TextInputArea } from '@components/all-components';
-import { InputTypesProps } from '@interfaces/InputProps';
 
 export const Search = ({
+  placeholder = "Pesquise aqui...",
   onChangeText,
-  placeholder,
-  icon,
   ...rest
-}:InputTypesProps) => {
+}:InputTextProps) => {
+
   return (
     <S.Container>
       <TextInputArea 
@@ -18,7 +18,7 @@ export const Search = ({
         {...rest}
       />
       <S.IconContainer>
-        <Feather name={icon} size={20} color="#000" />
+        <Feather name="search" size={20} color="#000" />
       </S.IconContainer>
     </S.Container>
   );

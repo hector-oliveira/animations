@@ -1,22 +1,20 @@
 import styled from 'styled-components/native';
 import { theme } from '@themes/theme';
 
-export const Container = styled.View`
+export const Container = styled.SafeAreaView`
   height: 40px;
-  width: 100%;
-  background-color: ${ theme.color.bgContainer };
-  border-radius: 20px;
-  margin-bottom: 10px;
+  width: 90%;
   flex-direction: row;
-  gap: 5px;
+  align-items: center;
+  border: 1px solid ${ theme.color.contour };
+  border-radius: 8px;
+  margin-bottom: 10px;
 `;
 
-export const IconContainer = styled.TouchableOpacity`
+export const IconContainer = styled.SafeAreaView`
   height: 100%;
-  width: 50px;
+  width: 40px;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
-  background: ${ theme.color.light[800] };
 `;
 
