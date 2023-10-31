@@ -11,6 +11,7 @@ export const theme = {
     light: {
       900: '#FFFFFF',
       800: '#F5F5F5',
+      700: '#E4E4E4',
     },
 
     dark: {
@@ -18,6 +19,12 @@ export const theme = {
       800: '#161616',
     } 
 
+  },
+
+  colors: {
+    status_bar: '#1C2025',
+    main: '#262B31',
+    social: '#151A1D'
   },
 
   font: {}
