@@ -3,7 +3,11 @@ import * as S from './Password.styles';
 import { TextInputArea } from '@components/all-components';
 import { FontAwesome } from '@expo/vector-icons';
 import { theme } from '@themes/theme';
-import { useConditionalIconRender, useToggleState } from '@hooks/index';
+import {
+  useConditionalIconRender,
+  useToggleState
+} from '@hooks/index';
+import { Eye } from '@animations/Eye';
 
 
 export const Password = () => {
@@ -13,16 +17,16 @@ export const Password = () => {
     trueIconName: 'eye-slash', 
     falseIconName: 'eye'
   });
+  
   return (
     <S.Container>
       <S.IconContainer>
-        <FontAwesome  name="lock" size={22} color={ theme.color.dark[900] } />
+        <FontAwesome name='lock' size={20} color={ theme.color.dark[800] } />
       </S.IconContainer>
       <TextInputArea 
         secureTextEntry={isToggle}
         autoCapitalize="none"
         placeholder="Senha"
-        placeholderTextColor={ theme.color.dark[900] }
       />
       <S.ButtonIconContainer onPress={handleToggleState}>
         { handleIconRendering() }
