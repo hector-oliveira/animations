@@ -4,7 +4,7 @@ import * as S from './RecoverPassword.styles';
 export const RecoverPassword = () => {
   return (
     <S.Container>
-      <S.Text>RecoverPassword</S.Text>
+      <S.Text>Recover Password</S.Text>
     </S.Container>
   );
 };
