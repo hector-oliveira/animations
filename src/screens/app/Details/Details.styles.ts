@@ -24,7 +24,7 @@ export const ImageContainer = styled.SafeAreaView`
 `;
 
 export const Image = styled.ImageBackground.attrs({
-  reiszeMode: 'cover',
+  resizeMode: 'contain',
 })`
   height: 100%;
   width: 100%;
