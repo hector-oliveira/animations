@@ -12,11 +12,3 @@ export const Container = styled.View`
   gap: 10px;
   margin-top: 20px;
 `;
-
-export const Button = styled.TouchableOpacity`
-  width: 85%;
-  height: 70px;
-  border-radius: 8px;
-  background-color: ${theme.color.status_bar};
-  color: ${theme.color.light[900]};
-`;

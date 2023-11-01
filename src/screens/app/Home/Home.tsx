@@ -13,7 +13,7 @@ export const Home = () => {
         <ProductsButton 
           key={index}
           source={image.source}
-          onPress={() => handleNavigation(`Detalhes do produto: ${index + 1}`, image.source)}
+          onPress={() => handleNavigation(image.source, image.description)}
         />
       ))}
     </S.Container>
