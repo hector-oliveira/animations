@@ -6,14 +6,14 @@ import { AppScreensParamList } from '@routes/TypeParamList';
 type Props = NativeStackScreenProps<AppScreensParamList, 'details'>
 
 export const Details = ({ route }: Props) => {
-  const { id, image } = route.params;
+  const { description, image } = route.params;
 
   return (
     <S.Container>
-      <S.Text>{id}</S.Text>
       <S.ImageContainer>  
         <S.Image source={image} />
       </S.ImageContainer>
+      <S.Text>{description}</S.Text>
     </S.Container>
   );
 };
