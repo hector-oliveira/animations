@@ -4,8 +4,8 @@ import { AppRoutesNames } from "@routes/TypeParamList/TypingForNavigation";
 export const useScreensNavigation = () => {
   const navigation = useNavigation<AppRoutesNames>();
 
-  const handleNavigation = (id: string, image: string) => {
-    navigation.navigate('details', { id, image })
+  const handleNavigation = (image: string, description: string) => {
+    navigation.navigate('details', { image, description })
   }
   
   return { handleNavigation }
