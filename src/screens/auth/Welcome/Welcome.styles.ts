@@ -30,7 +30,7 @@ export const Image = styled.ImageBackground.attrs({ resizeMode: 'contain' })`
 `;
 
 export const NavigationContainer = styled.SafeAreaView`
-  flex: 0.6;
+  flex: 1;
   width: 100%;
   align-items: center;
   justify-content: space-around;

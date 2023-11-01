@@ -6,9 +6,10 @@ import { useNavigation } from '@react-navigation/native';
 
 export const Welcome = () => {
   const navigation = useNavigation<AuthRoutesNames>();
-
   const handleNavigationToLogin = () => navigation.navigate('login');
   const handleNavigationToSignUp = () => navigation.navigate('signUp');
+  const handleNavigationToApp = () => navigation.navigate('app');
+  
   return (
     <S.Container>
       <S.ImageContainer>
@@ -23,6 +24,10 @@ export const Welcome = () => {
         <Button 
           placeholder='SIGN-UP'
           onPress={handleNavigationToSignUp}
+        />
+        <Button 
+          placeholder='App: Home'
+          onPress={handleNavigationToApp}
         />
       </S.NavigationContainer>
 
