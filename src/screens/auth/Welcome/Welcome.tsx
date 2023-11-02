@@ -18,14 +18,16 @@ export const Welcome = () => {
       <S.NavigationContainer>
         <S.Title>Welcome</S.Title>
         <Button 
+          icon="log-in"
           placeholder='LOGIN'
           onPress={handleNavigationToLogin}
         />
-        <Button 
+        <Button
+          icon="arrow-right-circle"
           placeholder='SIGN-UP'
           onPress={handleNavigationToSignUp}
         />
-        <Button 
+        <Button
           placeholder='App: Home'
           onPress={handleNavigationToApp}
         />
