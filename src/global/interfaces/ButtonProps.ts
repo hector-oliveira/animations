@@ -1,7 +1,8 @@
-import { TouchableOpacityProps } from "react-native"
-
+import { TouchableOpacityProps } from "react-native";
+import { Feather } from "@expo/vector-icons";
 
 export type ButtonProps = TouchableOpacityProps & {
   placeholder: string,
-  onChangeText?: (text: string) => void
+  icon?: React.ComponentProps<typeof Feather>['name'],
+  onPress?: (text: string) => void
 }
