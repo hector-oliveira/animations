@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './Home.styles';
 import { ProductsButton } from '@components/all-components';
-import { useDataImage, useScreensNavigation } from './hook/index';
+import { useScreensNavigation } from './hook/useScreensNavigation'
+import { productDetails } from './data/productDetails.data';
 
 export const Home = () => {
-  const { images } = useDataImage();
+  const { images } = productDetails();
   const { handleNavigation } = useScreensNavigation();
 
   return (
