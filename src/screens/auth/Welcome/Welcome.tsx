@@ -9,7 +9,7 @@ export const Welcome = () => {
   const handleNavigationToLogin = () => navigation.navigate('login');
   const handleNavigationToSignUp = () => navigation.navigate('signUp');
   const handleNavigationToApp = () => navigation.navigate('app');
-  
+
   return (
     <S.Container>
       <S.ImageContainer>
@@ -17,7 +17,7 @@ export const Welcome = () => {
       </S.ImageContainer>
       <S.NavigationContainer>
         <S.Title>Welcome</S.Title>
-        <Button 
+        <Button
           icon="log-in"
           placeholder='LOGIN'
           onPress={handleNavigationToLogin}
