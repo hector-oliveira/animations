@@ -1,46 +1,54 @@
 export const productDetails = () => {
-  const images = [
+  const details = [
     { 
-      source: require('@assets/image/home/minions.png'),
-      description: '1ª imagem de um minions'
+      image: require('@assets/image/home/minions.png'),
+      description: 'Minions Puff',
+      price: '28,50'
     },
 
     { 
-      source: require('@assets/image/home/hamburger.png'),
-      description: '1ª imagem de um hambúrguer'
+      image: require('@assets/image/home/hamburger.png'),
+      description: 'Hambúrguer com alface, tomate, queijo, ketchup, mostarda, cebola, bacon, picles e batata palha',
+      price: '19,90'
     },
 
     { 
-      source: require('@assets/image/home/milk-shake.png'),
-      description: '1ª imagem de um milk-shake'
+      image: require('@assets/image/home/milk-shake.png'),
+      description: 'Milk-shake',
+      price: '16,08'
     },
 
     { 
-      source: require('@assets/image/home/bandeiras.png'),
-      description: '1ª imagem de uma bandeira'
+      image: require('@assets/image/home/bandeiras.png'),
+      description: 'bandeira Formula 1',
+      price: '30,22'
     },
 
     { 
-      source: require('@assets/image/home/hamburger.png'),
-      description: '2ª imagem de um hambúrguer'
+      image: require('@assets/image/home/hamburger.png'),
+      description: 'Hambúrguer com alface, tomate, queijo, ketchup, mostarda, cebola, bacon, picles e batata palha',
+      price: '19,90'
     },
 
     { 
-      source: require('@assets/image/home/minions.png'),
-      description: '2ª imagem de um minions'
+      image: require('@assets/image/home/minions.png'),
+      description: 'Minions Puff',
+      price: '28,50'
     },
 
     { 
-      source: require('@assets/image/home/milk-shake.png'),
-      description: '2ª imagem de um shake'
+      image: require('@assets/image/home/milk-shake.png'),
+      description: 'Milk-shake',
+      price: '16,08'
     },
 
     { 
-      source: require('@assets/image/home/bandeiras.png'),
-      description: '2ª imagem de uma bandeira'
-    }
+      image: require('@assets/image/home/bandeiras.png'),
+      description: 'bandeira Formula 1',
+      price: '30,22'
+    },
 
   ];
   
-  return { images };
+  return { details };
 }
