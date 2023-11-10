@@ -8,14 +8,14 @@ module.exports = function(api) {
         alias: {
           '@animations': './src/animations',
           '@components': './src/components',
-          '@app':        './src/screens/app',
-          '@auth':       './src/screens/auth',
-          '@hooks':      './src/hooks',
-          '@routes':     './src/routes',
-          '@data':       './src/global/data',
+          '@app'       : './src/screens/app',
+          '@auth'      : './src/screens/auth',
+          '@hooks'     : './src/hooks',
+          '@routes'    : './src/routes',
+          '@data'      : './src/global/data',
           '@interfaces': './src/global/interfaces',
-          '@themes':     './src/themes',
-          '@assets':     './src/assets',
+          '@themes'    : './src/themes',
+          '@assets'    : './src/assets',
         }
       }]
     ]
