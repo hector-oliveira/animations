@@ -19,7 +19,7 @@ export const Title = styled.Text`
 `;
 
 export const ImageContainer = styled.SafeAreaView`
-  height: 60%;
+  flex: 2;
   width: 90%;
   justify-content: flex-end;
 `;
@@ -30,7 +30,7 @@ export const Image = styled.ImageBackground.attrs({ resizeMode: 'contain' })`
 `;
 
 export const NavigationContainer = styled.SafeAreaView`
-  flex: 1;
+  flex: 3;
   width: 100%;
   align-items: center;
   justify-content: space-around;
