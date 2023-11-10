@@ -4,7 +4,7 @@ export const theme = {
     secondary: '#6943E0',
     highlight: '#E0D243',
     contour: '#8B8758',
-    background: '#011627',
+    background: '#181531',
     bgContainer: '#121025',
     check: '#30DD64',
 
