@@ -9,6 +9,7 @@ export const Container = styled.View`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 20px;
+  padding-top: 20px;
+  background-color: ${ theme.colors.main };
 `;
