@@ -1,4 +1,8 @@
 export type AppScreensParamList = {
   home: undefined;
-  details: { image: string, description: string };
+  details: {
+    image: string,
+    description: string,
+    price: string
+  };
 };
